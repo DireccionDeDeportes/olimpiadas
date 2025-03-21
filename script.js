@@ -1,0 +1,301 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const actividades = {
+        "CENTRO DE CONVENCIONES MONSEÑOR ANGELELLI": {
+            "Lun": ["MUSCULACIÓN: 07:00-13:00", "AEROBICA: 08:00-09:00", "FUNCIONAL: 09:00-10:00","YOGA: 10:00-11:00", "YOGA: 11:00-12:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "KARATE DO: 20:00-21:00", "KARATE DO: 21:00-22:00"],
+            "Mar": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00","STEP DE COMPETICIÓN: 09:00-10:00", "PILATES MAT PRINCIPIANTES: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "YOGA: 16:00-17:00", "FOLCLORE: 17:00-18:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
+            "Mié": ["MUSCULACIÓN: 07:00-13:00", "STEP: 08:00-09:00", "FUNCIONAL: 09:00-10:00", "PILATES MAT PRINCIPIANTES: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "KARATE DO: 20:00-21:00", "KARATE DO: 21:00-22:00"],
+            "Jue": ["MUSCULACIÓN: 07:00-13:00", "PILATES FLEX: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "PILATES: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "YOGA: 16:00-17:00", "FOLCLORE: 17:00-18:00", "AEROBOX: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
+            "Vie": ["MUSCULACIÓN: 07:00-13:00", "GAP: 08:00-09:00", "17:00-18:00: Zumba", "FUNCIONAL: 09:00-10:00", "PILATES MAT PRINCIPIANTES: 10:00-11:00", "YOGA: 11:00-12:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL - ZUMBA: 19:00-20:00", "KARATE DO: 20:00-21:00", "KARATE DO: 21:00-22:00"],
+            "Sáb": [],
+            "Dom": []
+        },
+        "POLIDEPORTIVO": {
+            "Lun": ["FUNCIONAL POLIDEPORTIVO: 08:30-10:00", "ZUMBA AGHATA: 09:30-10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30","YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
+            "Mar": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "FUNCIONAL ADAPTADO: 10:00-12:00", "VOLLEY JUVENILES: 15:00-16:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
+            "Mié": ["FUNCIONAL POLIDEPORTIVO: 08:30-10:00", "ZUMBA AGHATA: 09:30-10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
+            "Jue": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "VOLLEY JUVENILES: 15:00-16:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
+            "Vie": ["FUNCIONAL POLIDEPORTIVO: 08:30-09:30", "ZUMBA AGHATA: 09:30-10:30", "FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL ADAPTADO: 10:00-12:00", "NEWCOM TARDE: 14:00-16:00", "YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET FORMATIVAS: 17:30-19:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
+            "Sáb": [],
+            "Dom": []
+        },
+        "Cav Felix Bogado": {
+            "Lun": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BODAGO: 19:00-20:00"],
+            "Mar": ["LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
+            "Mié": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BODAGO: 19:00-20:00"],
+            "Jue": ["LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
+            "Vie": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BODAGO: 19:00-20:00"],
+            "Sáb": [],
+            "Dom": []
+        },
+        "Cav Jardin San Luis": {
+            "Lun": ["FUNCIONAL JARDIN: 08:30-09:30","FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30","PILATES JARDIN: 10:30-11:30"],
+            "Mar": [],
+            "Mié": ["FUNCIONAL JARDIN: 08:30-09:30","FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30","PILATES JARDIN: 10:30-11:30"],
+            "Jue": [],
+            "Vie": ["FUNCIONAL JARDIN: 08:30-09:30","FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30","PILATES JARDIN: 10:30-11:30"],
+            "Sáb": [],
+            "Dom": []
+        }
+        ,
+        "Cav Tercera Rotonda": {
+            "Lun": ["LUCHA OLIMPICA NIÑOS-NIÑAS TERCERA: 16:00-20:00"],
+            "Mar": [],
+            "Mié": ["LUCHA OLIMPICA NIÑOS-NIÑAS TERCERA: 16:00-20:00"],
+            "Jue": [],
+            "Vie": [],
+            "Sáb": [],
+            "Dom": []
+        }
+        ,
+        "Cav Pueblo Nuevo": {
+            "Lun": [],
+            "Mar": ["ACTV. FISICA ADULTOS MAYORES: 15:00-16:00", "FUNCIONAL PUEBLO NUEVO: 16:00-17:00"],
+            "Mié": [],
+            "Jue": ["ACTV. FISICA ADULTOS MAYORES: 15:00-16:00", "FUNCIONAL PUEBLO NUEVO: 16:00-17:00"],
+            "Vie": [],
+            "Sáb": [],
+            "Dom": []
+        }
+    };
+
+    const actividadesInfo = {
+        "MUSCULACIÓN": { 
+            images: ["fotos/futbol/futsal.png", "fotos/futbol/2.jpg","fotos/futbol/3.jpg"],
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
+            description: "Clase de Yoga para principiantes"
+        },
+        "FUNCIONAL ADAPTADO": { 
+            images: ["fotos/funcionaladaptado/1.png"],
+            video: "", 
+            description: "" 
+        }, 
+        "NEWCOM TARDE": { 
+            images: ["fotos/newcomtarde/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=ho9rZjlsr_o", 
+            description: "" 
+        },
+        "FUNCIONAL KIDS": { 
+            images: ["fotos/funcionalkids/1.png"],
+            video: "https://www.youtube.com/embed/b-p5Qt-O6UI", 
+            description: "" 
+        },
+        "FUNCIONAL POLIDEPORTIVO": { 
+            images: ["fotos/funcionalpolideportivomañana/1.png"],
+            video: "https://www.youtube.com/embed/fKUmj8GPWIE", 
+            description: "" 
+        },
+        "HOCKEY ADOLESCENTES": { 
+            images: ["fotos/hockey/1.png"],
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
+            description: "" 
+        },
+        "HOCKEY ADULTOS": { 
+            images: ["fotos/hockey/1.png"],
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
+            description: "" 
+        },
+        "HOCKEY MAMIS": { 
+            images: ["fotos/hockey/1.png"],
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
+            description: "" 
+        },
+        "HOCKEY FORMATIVAS": { 
+            images: ["fotos/hockey/1.png"],
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
+            description: "" 
+        },
+        "FUTSAL": { 
+            images: ["fotos/futsal/1.png"],
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
+            description: "" 
+        },
+        "BASQUET JUVENIL": { 
+            images: ["fotos/basquetjuveniles/2.jpeg"],
+            video: "https://www.youtube.com/embed/RScUCz96nMs", 
+            description: "" 
+        },
+        "ZUMBA AGHATA": { 
+            images: ["fotos/zumbaaghata/1.png"],
+            video: "https://www.youtube.com/embed/RScUCz96nMs", 
+            description: "" 
+        },
+        "VOLLEY JUVENILES": { 
+            images: ["fotos/volley/1.png"],
+            video: "https://www.youtube.com/embed/RScUCz96nMs", 
+            description: "" 
+        },
+        "MAXI VOLLEY": { 
+            images: ["fotos/volley/1.png"],
+            video: "https://www.youtube.com/embed/RScUCz96nMs", 
+            description: "" 
+        },
+        "YOGA POLIDEPORTIVO": { 
+            images: ["fotos/yogapoli/1.png"],
+            video: "https://www.youtube.com/embed/B094N-J_KEg", 
+            description: "" 
+        },
+        "LUCHA OLIMPICA NIÑOS-NIÑAS": { 
+            images: ["fotos/luchafelix/1.png"],
+            video: "https://www.youtube.com/embed/x42o8j9CzWo", 
+            description: "" 
+        },
+        "BOX-STEP": { 
+            images: ["fotos/boxstepfelix/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        },
+        "FUNCIONAL FELIX BODAGO": { 
+            images: ["fotos/boxstepfelix/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        },
+        "FUNCIONAL JARDIN": { 
+            images: ["fotos/funcionaljardin/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        }
+        ,
+        "FUNCIONAL JARDIN PRINCIPIANTE": { 
+            images: ["fotos/funcionaljardin/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        }
+        ,
+        "PILATES JARDIN": { 
+            images: ["fotos/funcionaljardin/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        },
+        "LUCHA OLIMPICA NIÑOS-NIÑAS TERCERA": { 
+            images: ["fotos/luchatercera/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        },
+        "ACTV. FISICA ADULTOS MAYORES": { 
+            images: ["fotos/actvadultos/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        },
+        "FUNCIONAL PUEBLO NUEVO": { 
+            images: ["fotos/actvadultos/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        }
+    };
+
+    const diasSemana = ["Lun", "Mar", "Mié", "Jue", "Vie"];
+
+    const modal = document.getElementById('modal');
+    const modalContent = document.querySelector('.modal-content');
+
+    function openModal(actividad) {
+        const info = actividadesInfo[actividad];
+        if (info) {
+            let carouselItems = '';
+            info.images.forEach(image => {
+                carouselItems += `<div class="carousel-item"><img src="${image}" alt="${actividad}"></div>`;
+            });
+
+            modalContent.innerHTML = `
+                <span class="close">&times;</span>
+                <h2>${actividad}</h2>
+                <p>${info.description}</p>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        ${carouselItems}
+                    </div>
+                    <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+                </div>
+                <iframe width="100%" height="315" src="${info.video}" frameborder="0" allowfullscreen></iframe>
+            `;
+            modal.style.display = 'block';
+
+            const closeButton = modalContent.querySelector('.close');
+            closeButton.addEventListener('click', closeModal);
+
+            // Initialize carousel
+            let currentSlide = 0;
+            function showSlide(n) {
+                let slides = modalContent.querySelectorAll('.carousel-item'); // Select slides within the modal
+                if (slides.length === 0) return; // Exit if no slides
+
+                if (n >= slides.length) {
+                    currentSlide = 0;
+                }
+                if (n < 0) {
+                    currentSlide = slides.length - 1;
+                }
+
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+
+                slides[currentSlide].style.display = "block";
+            }
+
+            window.nextSlide = function() {
+                currentSlide++;
+                showSlide(currentSlide);
+            };
+
+            window.prevSlide = function() {
+                currentSlide--;
+                showSlide(currentSlide);
+            };
+
+            showSlide(currentSlide);
+        }
+    }
+
+    function closeModal() {
+        modal.style.display = 'none';
+    }
+
+    window.addEventListener('click', (event) => {
+        if (event.target == modal) {
+            closeModal();
+        }
+    });
+
+    document.querySelectorAll('.ubicacion').forEach(ubicacionElement => {
+        ubicacionElement.querySelector('h2').addEventListener('click', () => {
+            ubicacionElement.classList.toggle('activo');
+        });
+
+        const lugar = ubicacionElement.dataset.lugar;
+        const calendarioElement = ubicacionElement.querySelector('.calendario');
+
+        const tabla = document.createElement('table');
+        tabla.classList.add('tabla-calendario');
+        const tbody = document.createElement('tbody');
+
+        diasSemana.forEach(dia => {
+            let cuerpoRow = document.createElement('tr');
+            let th = document.createElement('th');
+            th.textContent = dia;
+            cuerpoRow.appendChild(th);
+
+            let td = document.createElement('td');
+            const actividadesDia = actividades[lugar][dia];
+            if (actividadesDia && actividadesDia.length > 0) {
+                actividadesDia.forEach(actividad => {
+                    let actividadDiv = document.createElement('div');
+                    actividadDiv.classList.add('actividad');
+                    actividadDiv.textContent = actividad;
+                    td.appendChild(actividadDiv);
+
+                    actividadDiv.addEventListener('click', () => {
+                        const actividadName = actividad.split(':')[0].trim();
+                        openModal(actividadName);
+                    });
+                });
+            }
+            cuerpoRow.appendChild(td);
+            tbody.appendChild(cuerpoRow);
+        });
+
+        tabla.appendChild(tbody);
+        calendarioElement.appendChild(tabla);
+    });
+});

@@ -1,83 +1,67 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olimpiadas Municipales</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <title>Actividades Deportivas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <header>
+        <h1>Actividades Deportivas 2025 </h1>
+        <p>Encuentra las mejores actividades deportivas cerca de ti.</p>
+    </header>
 
-<body class="gradient">
-    <br>
-    <div>
-        <img class="arr" src="images/losgo.png" >
-    </div>
-    <h1 style="color:#ffffff">Olimpiadas Municipales</h1>
-    <div class="container">
-        <h5>Deportes grupales</h5>
-        <div class="button-list">
-            
-            <a href="https://forms.gle/4R6Mr6XpcBtV7nGF6" target="_blank">
-                <button class="groupal">Básquet Femenino</button>
-            </a>
-            <a href="https://forms.gle/pm2VSMxm6ga8BG4VA" target="_blank">
-                <button class="groupal">Básquet Masculino</button>
-            </a>
-            <a href="https://forms.gle/iLj15mExcsapwNYE6" target="_blank">
-                <button class="groupal">Futsal Femenino</button>
-            </a>
-            <a href="https://forms.gle/YUi4p6MxkaLxYTPg8" target="_blank">
-                <button class="groupal">Fútbol 11 Masculino</button>
-            </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeCOSyG3bXyCfu3G8cbz_rtmBfpZpjDeDtdl9Eq2XwUGhFPg/viewform" target="_blank">
-                <button class="groupal">Fútbol 11 + 43</button>
-            </a>
-            <a href="https://forms.gle/C5Hf8MNnnmhzaGYw6" target="_blank">
-                <button class="groupal">Vóley Femenino</button>
-            </a>
-            <a href="https://forms.gle/iMmhBgJJx78BJHN38" target="_blank">
-                <button class="groupal">Vóley Masculino</button>
-            </a>
-            <a href="https://forms.gle/Ff7vaxPDhm9qYmKp8" target="_blank">
-                <button class="groupal">Beach Vóley Mixto</button>
-            </a>
-            <a href="https://forms.gle/79rgr4qtFkfUcghH6" target="_blank">
-                <button class="groupal">Truco (Dupla)</button>
-            </a>
-            <a href="https://forms.gle/HamsZjqTD338SWNu8" target="_blank">
-                <button class="groupal">Burako</button>
-            </a>
-            <a href="https://forms.gle/VR7KFH4t2YaTDZt49" target="_blank">
-                <button class="groupal">Tejo (Dupla)</button>
-            </a>
+    <section id="ubicaciones">
+        <div class="ubicacion" data-lugar="CENTRO DE CONVENCIONES MONSEÑOR ANGELELLI">
+            <h2>CENTRO DE CONVENCIONES MONSEÑOR ANGELELLI</h2>
+            <div class="contenido">
+                <div class="calendario"></div>
+            </div>
         </div>
-        <h5 style="margin-top: 20px;">Deportes individuales</h5>
-        <div class="button-list">
-            <a href="https://forms.gle/HunMwoDYPT7gB1F99" target="_blank">
-                <button class="individual">Atletismo</button>
-            </a>
-            <a href="https://forms.gle/Gz7zXE1AShQHYMcq9" target="_blank">
-                <button class="individual">Sapo</button>
-            </a>
-            <a href="https://forms.gle/JHv2wgBwEHzRhTQL6" target="_blank">
-                <button class="individual">Ping Pong</button>
-            </a>
-            <a href="https://forms.gle/sYyJcKfMW7LGDWRB7" target="_blank">
-                <button class="individual">Ajedrez</button>
-            </a>
-            <a href="https://forms.gle/UKYbnbWziVzejMbv5" target="_blank">
-                <button class="individual">Chinchón</button>
-            </a>
+        <div class="ubicacion" data-lugar="POLIDEPORTIVO">
+            <h2>POLIDEPORTIVO</h2>
+            <div class="contenido">
+                 <div class="calendario"></div>
+            </div>
+        </div>
+        <div class="ubicacion" data-lugar="Cav Felix Bogado">
+            <h2>Cav Felix Bogado</h2>
+            <div class="contenido">
+                <div class="calendario"></div>
+            </div>
+        </div>
+        <div class="ubicacion" data-lugar="Cav Jardin San Luis">
+            <h2>Cav Jardin San Luis</h2>
+            <div class="contenido">
+                <div class="calendario"></div>
+            </div>
+        </div>
+        <div class="ubicacion" data-lugar="Cav Tercera Rotonda">
+            <h2>Cav Tercera Rotonda</h2>
+            <div class="contenido">
+                <div class="calendario"></div>
+            </div>
+        </div>
+        <div class="ubicacion" data-lugar="Cav Pueblo Nuevo">
+            <h2>Cav Pueblo Nuevo</h2>
+            <div class="contenido">
+                <div class="calendario"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
         </div>
     </div>
-    <br>
-    <div>
-        <img class="izq" src="images/logo.png" >
-    </div>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <footer>
+        <p>&copy; Dirección de Deportes Barriales Municipalidad de la Ciudad de San Luis</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
