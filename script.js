@@ -45,14 +45,31 @@ document.addEventListener('DOMContentLoaded', () => {
             "Vie": [],
             "Sáb": [],
             "Dom": []
-        }
-        ,
+        },
         "Cav Pueblo Nuevo": {
             "Lun": [],
             "Mar": ["ACTV. FISICA ADULTOS MAYORES: 15:00-16:00", "FUNCIONAL PUEBLO NUEVO: 16:00-17:00"],
             "Mié": [],
             "Jue": ["ACTV. FISICA ADULTOS MAYORES: 15:00-16:00", "FUNCIONAL PUEBLO NUEVO: 16:00-17:00"],
             "Vie": [],
+            "Sáb": [],
+            "Dom": []
+        },
+        "Centro Comunitario Eva Peron": {
+            "Lun": ["FUNCIONAL EVA PERON: 14:00-15:00"],
+            "Mar": [],
+            "Mié": ["FUNCIONAL EVA PERON: 14:00-15:00"],
+            "Jue": [],
+            "Vie": ["FUNCIONAL EVA PERON: 14:00-15:00"],
+            "Sáb": [],
+            "Dom": []
+        },
+        "Cav Rawson": {
+            "Lun": ["FUTBOL: 17:00-18:30"],
+            "Mar": [],
+            "Mié": [],
+            "Jue": [],
+            "Vie": ["FUTBOL: 17:00-18:30"],
             "Sáb": [],
             "Dom": []
         }
@@ -178,6 +195,16 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "FUNCIONAL PUEBLO NUEVO": { 
             images: ["fotos/actvadultos/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        },
+        "FUNCIONAL EVA PERON": { 
+            images: ["fotos/funcionaleva/1.png"],
+            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            description: "" 
+        },
+        "FUTBOL": { 
+            images: ["fotos/futbol/1.png"],
             video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
             description: "" 
         }
