@@ -11,19 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "POLIDEPORTIVO": {
             "Lun": ["FUNCIONAL POLIDEPORTIVO: 08:30-10:00", "ZUMBA AGHATA: 09:30-10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30","YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
-            "Mar": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "FUNCIONAL ADAPTADO: 10:00-12:00", "VOLLEY JUVENILES: 15:00-16:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
+            "Mar": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "FUNCIONAL ADAPTADO: 10:00-12:00", "VOLEY JUVENILES: 15:00-16:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
             "Mié": ["FUNCIONAL POLIDEPORTIVO: 08:30-10:00", "ZUMBA AGHATA: 09:30-10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
-            "Jue": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "VOLLEY JUVENILES: 15:00-16:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
+            "Jue": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "VOLEY JUVENILES: 15:00-16:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
             "Vie": ["FUNCIONAL POLIDEPORTIVO: 08:30-09:30", "ZUMBA AGHATA: 09:30-10:30", "FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL ADAPTADO: 10:00-12:00", "NEWCOM TARDE: 14:00-16:00", "YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET FORMATIVAS: 17:30-19:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
             "Sáb": [],
             "Dom": []
         },
         "Cav Felix Bogado": {
-            "Lun": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BODAGO: 19:00-20:00"],
+            "Lun": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BOGADO: 19:00-20:00"],
             "Mar": ["LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
-            "Mié": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BODAGO: 19:00-20:00"],
+            "Mié": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BOGADO: 19:00-20:00"],
             "Jue": ["LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
-            "Vie": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BODAGO: 19:00-20:00"],
+            "Vie": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BOGADO: 19:00-20:00"],
             "Sáb": [],
             "Dom": []
         },
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "MUSCULACIÓN": { 
             images: ["fotos/futbol/futsal.png", "fotos/futbol/2.jpg","fotos/futbol/3.jpg"],
             video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
-            description: "Clase de Yoga para principiantes"
+            description: "Falta descripción!!"
         },
         "FUNCIONAL ADAPTADO": { 
             images: ["fotos/funcionaladaptado/1.png"],
@@ -136,12 +136,12 @@ document.addEventListener('DOMContentLoaded', () => {
             video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
-        "VOLLEY JUVENILES": { 
+        "VOLEY JUVENILES": { 
             images: ["fotos/volley/1.png"],
             video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
-        "MAXI VOLLEY": { 
+        "MAXI VOLEY": { 
             images: ["fotos/volley/1.png"],
             video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
-        "FUNCIONAL FELIX BODAGO": { 
+        "FUNCIONAL FELIX BOGADO": { 
             images: ["fotos/boxstepfelix/1.png"],
             video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 

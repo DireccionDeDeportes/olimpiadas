@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Baloo 2','Lato', sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(-40deg, rgba(0,57,116,1) 10%, rgba(144,191,68,1) 130%);
@@ -50,10 +50,11 @@ header p {
 }
 
 .ubicacion h2 {
+    color: rgba(0,57,116);
     text-align: left;
     margin-bottom: 15px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #ffff; 
     border-left: 5px solid rgba(0,57,116,1);
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -66,7 +67,7 @@ header p {
 .ubicacion .contenido {
     display: none;
     padding: 10px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid rgba(0,57,116);
     transition: all 0.3s ease;
     overflow: hidden;
 }
@@ -158,7 +159,7 @@ header p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background: linear-gradient(-40deg, rgba(0,57,116,1) 10%, rgba(144,191,68,1) 130%);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -169,12 +170,13 @@ header p {
 }
 
 .modal-content h2 {
-    color: #333;
+    color:white;
+    text-align: center;
     margin-bottom: 10px;
 }
 
 .modal-content p {
-    color: #666;
+    color: white;
     line-height: 1.6;
 }
 
@@ -243,9 +245,21 @@ header p {
 footer {
     text-align: center;
     padding: 30px;
-    background-color: #333;
     color: white;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.izq {
+    display: block; /* Hace que la imagen se comporte como un bloque */
+     margin: 20px auto 30px auto; /* Centra la imagen horizontalmente */
+    width: 30%; /* Reduce el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+}
+
+.izq-container {
+    position: relative; /* O usa absolute si lo prefieres */
+    bottom: 10px; /* Espaciado desde abajo */
+    right: 10px; /* Espaciado desde la derecha */
+    z-index: 100; /* Asegura que esté sobre otros elementos */
 }
 
 @media (max-width: 768px) {
@@ -266,13 +280,5 @@ footer {
     .calendario th, .calendario td {
         padding: 6px;
     }
-    .izq {
-        float: right;
-        width:30%;
-        height: auto;
-        margin-right: 20px;
-        margin-bottom: 30px;
-      }
-    
- 
+
 }
