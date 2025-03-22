@@ -242,7 +242,7 @@ header p {
     right: 10px;
 }
 
-footer {
+.foo {
     text-align: center;
     padding: 30px;
     color: white;
