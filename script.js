@@ -83,22 +83,22 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "FUNCIONAL ADAPTADO": { 
             images: ["fotos/funcionaladaptado/1.png"],
-            video: "", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         }, 
         "NEWCOM TARDE": { 
             images: ["fotos/newcomtarde/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=ho9rZjlsr_o", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "FUNCIONAL KIDS": { 
             images: ["fotos/funcionalkids/1.png"],
-            video: "https://www.youtube.com/embed/b-p5Qt-O6UI", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "FUNCIONAL POLIDEPORTIVO": { 
             images: ["fotos/funcionalpolideportivomañana/1.png"],
-            video: "https://www.youtube.com/embed/fKUmj8GPWIE", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "HOCKEY ADOLESCENTES": { 
@@ -128,84 +128,84 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "BASQUET JUVENIL": { 
             images: ["fotos/basquetjuveniles/2.jpeg"],
-            video: "https://www.youtube.com/embed/RScUCz96nMs", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "ZUMBA AGHATA": { 
             images: ["fotos/zumbaaghata/1.png"],
-            video: "https://www.youtube.com/embed/RScUCz96nMs", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "VOLLEY JUVENILES": { 
             images: ["fotos/volley/1.png"],
-            video: "https://www.youtube.com/embed/RScUCz96nMs", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "MAXI VOLLEY": { 
             images: ["fotos/volley/1.png"],
-            video: "https://www.youtube.com/embed/RScUCz96nMs", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "YOGA POLIDEPORTIVO": { 
             images: ["fotos/yogapoli/1.png"],
-            video: "https://www.youtube.com/embed/B094N-J_KEg", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "LUCHA OLIMPICA NIÑOS-NIÑAS": { 
             images: ["fotos/luchafelix/1.png"],
-            video: "https://www.youtube.com/embed/x42o8j9CzWo", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "BOX-STEP": { 
             images: ["fotos/boxstepfelix/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "FUNCIONAL FELIX BODAGO": { 
             images: ["fotos/boxstepfelix/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "FUNCIONAL JARDIN": { 
             images: ["fotos/funcionaljardin/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         }
         ,
         "FUNCIONAL JARDIN PRINCIPIANTE": { 
             images: ["fotos/funcionaljardin/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         }
         ,
         "PILATES JARDIN": { 
             images: ["fotos/funcionaljardin/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "LUCHA OLIMPICA NIÑOS-NIÑAS TERCERA": { 
             images: ["fotos/luchatercera/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "ACTV. FISICA ADULTOS MAYORES": { 
             images: ["fotos/actvadultos/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "FUNCIONAL PUEBLO NUEVO": { 
             images: ["fotos/actvadultos/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "FUNCIONAL EVA PERON": { 
             images: ["fotos/funcionaleva/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         },
         "FUTBOL": { 
             images: ["fotos/futbol/1.png"],
-            video: "https://www.youtube.com/embed/watch?v=watch?v=40vGzPDz97w", 
+            video: "https://www.youtube.com/embed/g2ghWf0r8jM?si=FRX1U0DEXiBVHBVU", 
             description: "" 
         }
     };
