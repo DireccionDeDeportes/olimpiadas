@@ -105,6 +105,7 @@ header p {
 
 .calendario td {
     transition: background-color 0.3s ease;
+    display:contents;
 }
 
 .calendario td:hover {
