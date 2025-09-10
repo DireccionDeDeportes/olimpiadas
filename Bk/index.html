@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olimpiadas Municipales</title>
+    
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />          
+    
 </head>
 
 <body class="gradient">
@@ -29,12 +31,22 @@
             <a href="https://forms.gle/iLj15mExcsapwNYE6" target="_blank">
                 <button class="groupal">Futsal Femenino</button>
             </a>
-            <a href="https://forms.gle/YUi4p6MxkaLxYTPg8" target="_blank">
-                <button class="groupal">Fútbol 11 Masculino</button>
+            <!-- Enlace con estilo de botón -->
+            <a href="#" class="groupal" onclick="abrirModal('Libre')">
+                <button class="groupal">Fútbol 11 Categoría Libre</button>
             </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeCOSyG3bXyCfu3G8cbz_rtmBfpZpjDeDtdl9Eq2XwUGhFPg/viewform" target="_blank">
-                <button class="groupal">Fútbol 7 + 45</button>
+
+            <!-- Enlace con estilo de botón -->
+            <a href="#" class="groupal" onclick="abrirModal('Senior +35')">
+                <button class="groupal">Fútbol 11 Categoría Senior +35</button>
             </a>
+
+             <!-- Enlace con estilo de botón -->
+            <a href="#" class="groupal" onclick="abrirModal('Senior +43')">
+                <button class="groupal">Fútbol 5 Categoría Maxi Senior +43</button>
+            </a>
+
+
             <!--<a href="https://forms.gle/C5Hf8MNnnmhzaGYw6" target="_blank">
                 <button class="groupal">Vóley Femenino</button>
             </a>-->
@@ -88,5 +100,67 @@
     </div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script>
+ 
+
+<!-- Modal -->
+<div id="miModal" class="modal-custom">
+  <div class="modal-contenido">
+    <span class="cerrar" onclick="cerrarModal()">&times;</span>
+    <h3>Confirmar envío</h3>
+    <p id="textoCategoria">Se lo vas a enviar por WhatsApp al encargado.</p>
+    <br>
+    <button class="groupal" onclick="enviarWhatsApp()">Confirmar</button>
+  </div>
+</div>
+
+<style>
+  /* Estilos del modal */
+  .modal-custom {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+  }
+  .modal-contenido {
+    background: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  .cerrar {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+  }
+</style>
+
+<script>
+  let categoriaSeleccionada = "";
+
+  function abrirModal(categoria) {
+    categoriaSeleccionada = categoria; // guardamos la categoría
+    document.getElementById('textoCategoria').innerHTML =
+      `Para inscribirse hay que comunicarse vía WhatsApp con el encargado para la categoría: <b>${categoria}</b>`;
+    document.getElementById('miModal').style.display = 'block';
+  }
+
+  function cerrarModal() {
+    document.getElementById('miModal').style.display = 'none';
+  }
+
+  function enviarWhatsApp() {
+    const numero = "5492664330145"; // 📲 tu número
+    const mensaje = `Hola, quiero inscribirme en Fútbol en la categoría ${categoriaSeleccionada}.`;
+
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, "_blank");
+    cerrarModal();
+  }
+</script>
+
 </body>
 </html>
