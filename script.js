@@ -1,38 +1,38 @@
 document.addEventListener('DOMContentLoaded', () => {
     const actividades = {
         "CENTRO DE CONVENCIONES MONSEÑOR ANGELELLI": {
-            "Lun": ["MUSCULACIÓN: 07:00-13:00", "AEROBICA: 08:00-09:00", "FUNCIONAL: 09:00-10:00","ATLETISMO: 10:00-16:00","YOGA: 10:00-11:00", "YOGA: 11:00-12:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:30-21:30","KARATE DO: 21:00-22:00"],
-            "Mar": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00","STEP DE COMPETICIÓN: 09:00-10:00","ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00","FOLCLORE: 17:00-18:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00","ZUMBA GOLD: 20:00-21:00","DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
-            "Mié": ["MUSCULACIÓN: 07:00-13:00", "STEP: 08:00-09:00", "FUNCIONAL: 09:00-10:00","ATLETISMO: 10:00-16:00",  "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:30-21:30", "KARATE DO: 21:00-22:00"],
-            "Jue": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00","ATLETISMO: 10:00-16:00",  "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "YOGA LEDA: 16:00-17:00", "FOLCLORE: 17:00-18:00", "AEROBOX: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00","ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
-            "Vie": ["MUSCULACIÓN: 07:00-13:00", "GAP: 08:00-09:00", "17:00-18:00: Zumba", "FUNCIONAL: 09:00-10:00",  "PILATES MATT: 10:00-11:00","YOGA DEPORTIVA: 10:00-11:00","YOGA LEDA: 11:15-12:15", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL - ZUMBA: 19:00-20:00", "KARATE DO: 20:00-21:00", "KARATE DO: 21:00-22:00"],
+            "Lun": ["MUSCULACIÓN: 07:00-13:00", "AEROBICA: 08:00-09:00", "FUNCIONAL: 09:00-10:00", "ATLETISMO: 10:00-16:00", "YOGA: 10:00-11:00", "YOGA: 11:00-12:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:30-21:30", "KARATE DO: 21:00-22:00"],
+            "Mar": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "FOLCLORE: 17:00-18:00","STRONG: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
+            "Mié": ["MUSCULACIÓN: 07:00-13:00", "STEP: 08:00-09:00", "FUNCIONAL: 09:00-10:00", "ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:30-21:30", "KARATE DO: 21:00-22:00"],
+            "Jue": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "YOGA LEDA: 16:00-17:00", "FOLCLORE: 17:00-18:00","STRONG: 18:00-19:00", "AEROBOX: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
+            "Vie": ["MUSCULACIÓN: 07:00-13:00", "GAP: 08:00-09:00", "17:00-18:00: Zumba", "FUNCIONAL: 09:00-10:00", "PILATES MATT: 10:00-11:00", "YOGA DEPORTIVA: 10:00-11:00", "YOGA LEDA: 11:15-12:15", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL - ZUMBA: 19:00-20:00", "KARATE DO: 20:00-21:00", "KARATE DO: 21:00-22:00"],
             "Sáb": [],
             "Dom": []
         },
         "POLIDEPORTIVO": {
-            "Lun": ["FUNCIONAL POLIDEPORTIVO: 08:30-10:00", "ZUMBA AGHATA: 09:30-10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30","YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
-            "Mar": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "FUNCIONAL ADAPTADO: 10:00-12:00","FUNCIONAL GABY: 15:00-16:00", "VOLEY JUVENILES: 15:00-16:30","GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 16:30-17:30","GIMNACIA ARTÍSTICA 6 A 15 AÑOS: 17:30-18:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
+            "Lun": ["FUNCIONAL POLIDEPORTIVO: 08:30-10:00", "ZUMBA AGHATA: 09:30-10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
+            "Mar": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "FUNCIONAL ADAPTADO: 10:00-12:00", "FUNCIONAL GABY: 15:00-16:00", "VOLEY JUVENILES: 15:00-16:30", "GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 16:30-17:30", "GIMNACIA ARTÍSTICA 6 A 15 AÑOS:16:30-18:00", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
             "Mié": ["FUNCIONAL POLIDEPORTIVO: 08:30-10:00", "ZUMBA AGHATA: 09:30-10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
-            "Jue": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "VOLEY JUVENILES: 15:00-16:30","FUNCIONAL GABY: 15:00-16:00","GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 16:30-17:30","GIMNACIA ARTÍSTICA 6 A 15 AÑOS: 17:30-18:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
+            "Jue": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "VOLEY JUVENILES: 15:00-16:30", "FUNCIONAL GABY: 15:00-16:00", "GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 16:30-17:30", "GIMNACIA ARTÍSTICA 6 A 15 AÑOS: 16:30-18:00", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
             "Vie": ["FUNCIONAL POLIDEPORTIVO: 08:30-09:30", "ZUMBA AGHATA: 09:30-10:30", "FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL ADAPTADO: 10:00-12:00", "NEWCOM TARDE: 14:00-16:00", "YOGA LEDA: 15:30-16:30", "BASQUET JUVENIL: 16:00-17:30", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
             "Sáb": [],
             "Dom": []
         },
         "Cav Felix Bogado": {
-            "Lun": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BOGADO: 19:00-20:00"],
+            "Lun": ["BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
             "Mar": ["LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
-            "Mié": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BOGADO: 19:00-20:00"],
+            "Mié": ["BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
             "Jue": ["LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
-            "Vie": ["BOX-STEP: 15:00-16:00","FUNCIONAL FELIX BOGADO: 19:00-20:00"],
+            "Vie": ["BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
             "Sáb": [],
             "Dom": []
         },
         "Cav Jardin San Luis": {
-            "Lun": ["FUNCIONAL JARDIN: 08:30-09:30","FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30","PILATES JARDIN: 10:30-11:30"],
+            "Lun": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30"],
             "Mar": ["ACTIVIDAD ADAPTADA ADULTOS MAYORES: 10:00-11:00"],
-            "Mié": ["FUNCIONAL JARDIN: 08:30-09:30","FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30","PILATES JARDIN: 10:30-11:30","ZUMBA GOLD: 19:00-20:00"],
+            "Mié": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30", "ZUMBA GOLD: 19:00-20:00"],
             "Jue": ["ACTIVIDAD ADAPTADA ADULTOS MAYORES: 9:30-10:30"],
-            "Vie": ["FUNCIONAL JARDIN: 08:30-09:30","FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30","PILATES JARDIN: 10:30-11:30","ZUMBA GOLD: 19:00-20:00"],
+            "Vie": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30", "ZUMBA GOLD: 19:00-20:00"],
             "Sáb": [],
             "Dom": []
         }
@@ -72,219 +72,248 @@ document.addEventListener('DOMContentLoaded', () => {
             "Vie": ["FUTBOL: 17:00-18:30"],
             "Sáb": [],
             "Dom": []
+        },
+         "BARRIO 500 VIVIENDAS": {
+            "Lun": [],
+            "Mar": [],
+            "Mié": ["FUTSAL MIXTO 7-9 AÑOS: 15:30-16:30","FUTSAL MIXTO 10-12 AÑOS: 16:30-17:30"],
+            "Jue": [],
+            "Vie": ["FUTSAL MIXTO 7-9 AÑOS: 15:30-16:30","FUTSAL MIXTO 10-12 AÑOS: 16:30-17:30"],
+            "Sáb": [],
+            "Dom": []
         }
     };
 
     const actividadesInfo = {
-        "ACTIVIDAD ADAPTADA ADULTOS MAYORES": { 
+        "ACTIVIDAD ADAPTADA ADULTOS MAYORES": {
             images: ["fotos/aadulmay/1.png"],
-            video: "", 
+            video: "",
             description: ""
         },
-        "ATLETISMO": { 
+        "ATLETISMO": {
             images: ["fotos/atletismo/1.png"],
-            video: "", 
+            video: "",
+            description: ""
+        }, 
+        "AEROBICA": {
+            images: ["fotos/aerobica/1.jpeg"],
+            video: "",
             description: ""
         },
-        "FUNCIONAL ADAPTADO": { 
+        "FUNCIONAL ADAPTADO": {
             images: ["fotos/funcionaladaptado/1.png"],
-            video: "", 
-            description: "" 
-        }, 
-        "FUNCIONAL MELINA": { 
+            video: "",
+            description: ""
+        },
+        "FUNCIONAL MELINA": {
             images: ["fotos/funcionalmelina/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "NEWCOM TARDE": { 
+        "NEWCOM TARDE": {
             images: ["fotos/newcomtarde/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "FUNCIONAL KIDS": { 
+        "FUNCIONAL KIDS": {
             images: ["fotos/funcionalkids/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "FUNCIONAL POLIDEPORTIVO": { 
+        "FUNCIONAL POLIDEPORTIVO": {
             images: ["fotos/funcionalpolideportivomañana/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "HOCKEY ADOLESCENTES": { 
+        "HOCKEY ADOLESCENTES": {
             images: ["fotos/hockey/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "HOCKEY ADULTOS": { 
+        "HOCKEY ADULTOS": {
             images: ["fotos/hockey/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "HOCKEY MAMIS": { 
+        "HOCKEY MAMIS": {
             images: ["fotos/hockey/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "HOCKEY FORMATIVAS": { 
+        "HOCKEY FORMATIVAS": {
             images: ["fotos/hockey/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "FUTSAL": { 
+        "FUTSAL": {
             images: ["fotos/futsal/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "BASQUET JUVENIL": { 
+        "STRONG": {
+            images: ["fotos/strong/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "FUTSAL MIXTO 7-9 AÑOS": {
+            images: ["fotos/futsal500/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "FUTSAL MIXTO 10-12 AÑOS": {
+            images: ["fotos/futsal500/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "BASQUET JUVENIL": {
             images: ["fotos/basquetjuveniles/1.jpg"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "BASQUET FORMATIVAS": { 
+        "BASQUET FORMATIVAS": {
             images: ["fotos/basquetf/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "BASQUET MINI": { 
-            images: ["fotos/basquetm/1.jpg","fotos/basquetm/2.jpeg"],
-            video: "", 
-            description: "" 
+        "BASQUET MINI": {
+            images: ["fotos/basquetm/1.jpg", "fotos/basquetm/2.jpeg"],
+            video: "",
+            description: ""
         },
-        "NEWCOM": { 
+        "NEWCOM": {
             images: ["fotos/newcom/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "ZUMBA AGHATA": { 
+        "ZUMBA AGHATA": {
             images: ["fotos/zumbaaghata/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "ZUMBA CARINA": { 
+        "ZUMBA CARINA": {
             images: ["fotos/zumbacarina/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "VOLEY JUVENILES": { 
+        "VOLEY JUVENILES": {
             images: ["fotos/volley/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "MAXI VOLEY": { 
+        "MAXI VOLEY": {
             images: ["fotos/volley/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "YOGA LEDA": { 
+        "YOGA LEDA": {
+            images: ["fotos/yogaleda/1.jpeg", "fotos/yogaleda/2.jpeg"],
+            video: "",
+            description: ""
+        },
+        "YOGA DEPORTIVA": {
             images: ["fotos/yogaleda/1.jpeg"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "YOGA DEPORTIVA": { 
-            images: ["fotos/yogaleda/1.jpeg"],
-            video: "", 
-            description: "" 
-        },
-        "LUCHA OLIMPICA NIÑOS-NIÑAS": { 
+        "LUCHA OLIMPICA NIÑOS-NIÑAS": {
             images: ["fotos/luchafelix/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "FUNCIONAL GABY": { 
+        "FUNCIONAL GABY": {
             images: ["fotos/funcgaby/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "BOX-STEP": { 
+        "BOX-STEP": {
             images: ["fotos/boxstepfelix/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "FUNCIONAL FELIX BOGADO": { 
+        "FUNCIONAL FELIX BOGADO": {
             images: ["fotos/boxstepfelix/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "FUNCIONAL JARDIN": { 
+        "FUNCIONAL JARDIN": {
             images: ["fotos/funcionaljardin/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         }
         ,
-        "FUNCIONAL JARDIN PRINCIPIANTE": { 
+        "FUNCIONAL JARDIN PRINCIPIANTE": {
             images: ["fotos/funcionaljardin/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "MUSCULACIÓN": { 
+        "MUSCULACIÓN": {
             images: ["fotos/musculacion/1.jpeg"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "PILATES JARDIN": { 
+        "PILATES JARDIN": {
             images: ["fotos/funcionaljardin/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "PILATES MATT": { 
+        "PILATES MATT": {
             images: ["fotos/pilatesmatt/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "GAP": { 
+        "GAP": {
             images: ["fotos/gap/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "PILATES": { 
+        "PILATES": {
             images: ["fotos/pilates/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "SALSA-BACHATA": { 
+        "SALSA-BACHATA": {
             images: ["fotos/bachata/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "LUCHA OLIMPICA NIÑOS-NIÑAS TERCERA": { 
+        "LUCHA OLIMPICA NIÑOS-NIÑAS TERCERA": {
             images: ["fotos/luchatercera/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "ACTV. FISICA ADULTOS MAYORES": { 
+        "ACTV. FISICA ADULTOS MAYORES": {
             images: ["fotos/actvadultos/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "FUNCIONAL PUEBLO NUEVO": { 
+        "FUNCIONAL PUEBLO NUEVO": {
             images: ["fotos/actvadultos/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "FUNCIONAL EVA PERON": { 
+        "FUNCIONAL EVA PERON": {
             images: ["fotos/funcionaleva/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "FUTBOL": { 
+        "FUTBOL": {
             images: ["fotos/futbol/1.png"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "GIMNACIA ARTÍSTICA 6 A 15 AÑOS": { 
+        "GIMNACIA ARTÍSTICA 6 A 15 AÑOS": {
             images: ["fotos/gymart/gymart.jpeg"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "GIMNACIA ARTÍSTICA 4 A 6 AÑOS": { 
+        "GIMNACIA ARTÍSTICA 4 A 6 AÑOS": {
             images: ["fotos/gymart/gymart.jpeg"],
-            video: "", 
-            description: "" 
+            video: "",
+            description: ""
         },
-        "ZUMBA GOLD": { 
-            images: ["fotos/zumbagold/1.png","fotos/zumbagold/2.png"],
-            video: "", 
+        "ZUMBA GOLD": {
+            images: ["fotos/zumbagold/1.png", "fotos/zumbagold/2.png"],
+            video: "",
             description: ""
         },
     };
@@ -340,12 +369,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 slides[currentSlide].style.display = "block";
             }
 
-            window.nextSlide = function() {
+            window.nextSlide = function () {
                 currentSlide++;
                 showSlide(currentSlide);
             };
 
-            window.prevSlide = function() {
+            window.prevSlide = function () {
                 currentSlide--;
                 showSlide(currentSlide);
             };
