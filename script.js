@@ -4,35 +4,35 @@ document.addEventListener('DOMContentLoaded', () => {
             "Lun": ["MUSCULACIÓN: 07:00-13:00", "AEROBICA: 08:00-09:00", "FUNCIONAL: 09:00-10:00", "ATLETISMO: 10:00-16:00", "YOGA: 10:00-11:00", "YOGA: 11:00-12:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:30-21:30", "KARATE DO: 21:00-22:00"],
             "Mar": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "FOLCLORE: 17:00-18:00","STRONG: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
             "Mié": ["MUSCULACIÓN: 07:00-13:00", "STEP: 08:00-09:00", "FUNCIONAL: 09:00-10:00", "ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:30-21:30", "KARATE DO: 21:00-22:00"],
-            "Jue": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "YOGA LEDA: 16:00-17:00", "FOLCLORE: 17:00-18:00","STRONG: 18:00-19:00", "AEROBOX: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
+            "Jue": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "YOGA HOLÌSTICA: 10:00-11:15","ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "FOLCLORE: 17:00-18:00","STRONG: 18:00-19:00", "AEROBOX: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
             "Vie": ["MUSCULACIÓN: 07:00-13:00", "GAP: 08:00-09:00", "17:00-18:00: Zumba", "FUNCIONAL: 09:00-10:00", "PILATES MATT: 10:00-11:00", "YOGA DEPORTIVA: 10:00-11:00", "YOGA LEDA: 11:15-12:15", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL - ZUMBA: 19:00-20:00", "KARATE DO: 20:00-21:00", "KARATE DO: 21:00-22:00"],
             "Sáb": [],
             "Dom": []
         },
         "POLIDEPORTIVO": {
-            "Lun": ["FUNCIONAL POLIDEPORTIVO: 08:30-10:00", "ZUMBA AGHATA: 09:30-10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
-            "Mar": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "FUNCIONAL ADAPTADO: 10:00-12:00", "FUNCIONAL GABY: 15:00-16:00", "VOLEY JUVENILES: 15:00-16:30", "GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 16:30-17:30", "GIMNACIA ARTÍSTICA 6 A 15 AÑOS:16:30-18:00", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
-            "Mié": ["FUNCIONAL POLIDEPORTIVO: 08:30-10:00", "ZUMBA AGHATA: 09:30-10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
-            "Jue": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 09:00-10:00", "VOLEY JUVENILES: 15:00-16:30", "FUNCIONAL GABY: 15:00-16:00", "GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 16:30-17:30", "GIMNACIA ARTÍSTICA 6 A 15 AÑOS: 16:30-18:00", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00", "MAXI VOLEY: 18:30-20:00", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
-            "Vie": ["FUNCIONAL POLIDEPORTIVO: 08:30-09:30", "ZUMBA AGHATA: 09:30-10:30", "FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL ADAPTADO: 10:00-12:00", "NEWCOM TARDE: 14:00-16:00", "YOGA LEDA: 15:30-16:30", "BASQUET JUVENIL: 16:00-17:30", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
+            "Lun": ["FUNCIONAL POLIDEPORTIVO: 08:30","ZUMBA AGHATA: 09:30-10:30","FUNCIONAL POLIDEPORTIVO: 10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
+            "Mar": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 08:30", "FUNCIONAL GABY: 15:00-16:00","RITMOS Y GIMNACIA: 15:00", "GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 16:30-17:30", "GIMNACIA ARTÍSTICA 7 A 11 AÑOS:17:30-18:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00","VOLEY: 18:30-20:00", "MAXI VOLEY: 20:00-21:30", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
+            "Mié": ["FUNCIONAL POLIDEPORTIVO: 08:30","ZUMBA AGHATA: 09:30-10:30","FUNCIONAL POLIDEPORTIVO: 10:30","NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
+            "Jue": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 08:30", "FUNCIONAL POLIDEPORTIVO: 10:30", "FUNCIONAL GABY: 15:00-16:00","RITMOS Y GIMNACIA: 15:00", "GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 17:00-18:00", "GIMNACIA ARTÍSTICA 7 A 11 AÑOS: 18:00-19:00", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00","VOLEY: 18:30-20:00", "MAXI VOLEY: 20:00-21:30", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
+            "Vie": ["FUNCIONAL POLIDEPORTIVO: 08:30","ZUMBA AGHATA: 09:30-10:30", "FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL ADAPTADO: 10:30", "NEWCOM TARDE: 14:00-16:00", "JUEGOS DE MESA: 15:00","YOGA INTEGRAL: 16:15", "BASQUET JUVENIL: 16:00-17:30", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
             "Sáb": [],
             "Dom": []
         },
         "Cav Felix Bogado": {
             "Lun": ["BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
-            "Mar": ["LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
+            "Mar": ["DEFENSA PERSONAL FEMENINA: 18:00-19:00","LUCHA OLIMPICA: 19:00-21:00"],
             "Mié": ["BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
             "Jue": ["LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
-            "Vie": ["BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
+            "Vie": ["DEFENSA PERSONAL FEMENINA: 18:00-19:00","LUCHA OLIMPICA: 19:00-21:00"],
             "Sáb": [],
             "Dom": []
         },
         "Cav Jardin San Luis": {
             "Lun": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30"],
             "Mar": ["ACTIVIDAD ADAPTADA ADULTOS MAYORES: 10:00-11:00"],
-            "Mié": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30", "ZUMBA GOLD: 19:00-20:00"],
+            "Mié": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30", "ZUMBA GOLD: 18:30"],
             "Jue": ["ACTIVIDAD ADAPTADA ADULTOS MAYORES: 9:30-10:30"],
-            "Vie": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30", "ZUMBA GOLD: 19:00-20:00"],
+            "Vie": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30", "ZUMBA GOLD: 18:30"],
             "Sáb": [],
             "Dom": []
         }
@@ -90,6 +90,21 @@ document.addEventListener('DOMContentLoaded', () => {
             video: "",
             description: ""
         },
+        "RITMOS Y GIMNACIA": {
+            images: ["fotos/ritmogim/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "YOGA INTEGRAL": {
+            images: ["fotos/ritmogim/2.jpeg"],
+            video: "",
+            description: ""
+        },
+         "JUEGOS DE MESA": {
+            images: ["fotos/ritmogim/3.jpeg"],
+            video: "",
+            description: ""
+        },
         "ATLETISMO": {
             images: ["fotos/atletismo/1.png"],
             video: "",
@@ -101,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "FUNCIONAL ADAPTADO": {
-            images: ["fotos/funcionaladaptado/1.png"],
+            images: ["fotos/funcionaladaptado/1.jpeg"],
             video: "",
             description: ""
         },
@@ -121,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "FUNCIONAL POLIDEPORTIVO": {
-            images: ["fotos/funcionalpolideportivomañana/1.png"],
+            images: ["fotos/funcionalpolideportivomañana/2.jpeg","fotos/funcionalpolideportivomañana/3.jpeg"],
             video: "",
             description: ""
         },
@@ -146,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "FUTSAL": {
-            images: ["fotos/futsal/1.png"],
+            images: ["fotos/futsal/1.jpeg","fotos/futsal/2.png"],
             video: "",
             description: ""
         },
@@ -166,47 +181,47 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "BASQUET JUVENIL": {
-            images: ["fotos/basquetjuveniles/1.jpg"],
+            images: ["fotos/basquetjuveniles/1.jpeg","fotos/basquetjuveniles/2.jpg"],
             video: "",
             description: ""
         },
         "BASQUET FORMATIVAS": {
-            images: ["fotos/basquetf/1.png"],
+            images: [, "fotos/basquetf/1.jpeg","fotos/basquetf/2.png"],
             video: "",
             description: ""
         },
         "BASQUET MINI": {
-            images: ["fotos/basquetm/1.jpg", "fotos/basquetm/2.jpeg"],
+            images: ["fotos/basquetm/1.jpeg", "fotos/basquetm/2.jpeg", "fotos/basquetm/3.jpeg"],
             video: "",
             description: ""
         },
         "NEWCOM": {
-            images: ["fotos/newcom/1.png"],
+            images: ["fotos/newcom/2.png","fotos/newcom/1.jpeg"],
             video: "",
             description: ""
         },
         "ZUMBA AGHATA": {
-            images: ["fotos/zumbaaghata/1.png"],
+            images: ["fotos/zumbaaghata/1.png","fotos/zumbaaghata/2.jpeg"],
             video: "",
             description: ""
         },
         "ZUMBA CARINA": {
-            images: ["fotos/zumbacarina/1.png"],
+            images: ["fotos/zumbacarina/1.png","fotos/zumbacarina/2.jpeg"],
             video: "",
             description: ""
         },
-        "VOLEY JUVENILES": {
-            images: ["fotos/volley/1.png"],
+        "VOLEY": {
+            images: ["fotos/volley/1.jpeg"],
             video: "",
             description: ""
         },
         "MAXI VOLEY": {
-            images: ["fotos/volley/1.png"],
+            images: ["fotos/volley/1.jpeg"],
             video: "",
             description: ""
         },
         "YOGA LEDA": {
-            images: ["fotos/yogaleda/1.jpeg", "fotos/yogaleda/2.jpeg"],
+            images: ["fotos/yogaleda/1.jpeg"],
             video: "",
             description: ""
         },
@@ -217,6 +232,16 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "LUCHA OLIMPICA NIÑOS-NIÑAS": {
             images: ["fotos/luchafelix/1.png"],
+            video: "",
+            description: ""
+        },
+        "DEFENSA PERSONAL FEMENINA": {
+            images: ["fotos/luchafelix/lo.jpeg"],
+            video: "",
+            description: ""
+        },
+        "LUCHA OLIMPICA": {
+            images: ["fotos/luchafelix/lo.jpeg"],
             video: "",
             description: ""
         },
@@ -301,18 +326,23 @@ document.addEventListener('DOMContentLoaded', () => {
             video: "",
             description: ""
         },
-        "GIMNACIA ARTÍSTICA 6 A 15 AÑOS": {
-            images: ["fotos/gymart/gymart.jpeg"],
+        "GIMNACIA ARTÍSTICA 7 A 11 AÑOS": {
+            images: ["fotos/gymart/1.jpeg"],
             video: "",
             description: ""
         },
         "GIMNACIA ARTÍSTICA 4 A 6 AÑOS": {
-            images: ["fotos/gymart/gymart.jpeg"],
+            images: ["fotos/gymart/1.jpeg"],
             video: "",
             description: ""
         },
         "ZUMBA GOLD": {
-            images: ["fotos/zumbagold/1.png", "fotos/zumbagold/2.png"],
+            images: ["fotos/zumbagold/1.jpeg", "fotos/zumbagold/2.png"],
+            video: "",
+            description: ""
+        },
+        "YOGA HOLÌSTICA": {
+            images: ["fotos/yogaleda/yh.jpeg"],
             video: "",
             description: ""
         },
