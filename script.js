@@ -10,20 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
             "Dom": []
         },
         "POLIDEPORTIVO": {
-            "Lun": ["FUNCIONAL POLIDEPORTIVO: 08:30","ZUMBA AGHATA: 09:30-10:30","FUNCIONAL POLIDEPORTIVO: 10:30", "NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
-            "Mar": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 08:30", "FUNCIONAL GABY: 15:00-16:00","RITMOS Y GIMNACIA: 15:00", "GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 16:30-17:30", "GIMNACIA ARTÍSTICA 7 A 11 AÑOS:17:30-18:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00","VOLEY: 18:30-20:00", "MAXI VOLEY: 20:00-21:30", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
+            "Lun": ["FUNCIONAL POLIDEPORTIVO: 08:30","ZUMBA AGHATA: 09:30-10:30","FUNCIONAL POLIDEPORTIVO: 10:30", "NEWCOM TARDE: 14:00-16:00","TEJO INICIAL: 15:00","TEJO COMPETITIVO: 15:00-18:00",  "BASQUET JUVENIL: 16:00-17:30", "YOGA POLIDEPORTIVO: 17:00-18:00", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
+            "Mar": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 08:30","TEJO COMPETITIVO: 15:00-18:00",  "FUNCIONAL GABY: 15:00-16:00","RITMOS Y GIMNACIA: 15:00", "GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 16:30-17:30", "GIMNACIA ARTÍSTICA 7 A 11 AÑOS:17:30-18:30", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00","VOLEY: 18:30-20:00", "MAXI VOLEY: 20:00-21:30", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
             "Mié": ["FUNCIONAL POLIDEPORTIVO: 08:30","ZUMBA AGHATA: 09:30-10:30","FUNCIONAL POLIDEPORTIVO: 10:30","NEWCOM TARDE: 14:00-16:00", "BASQUET JUVENIL: 16:00-17:30", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "ZUMBA CARINA: 19:00-20:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
             "Jue": ["FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL POLIDEPORTIVO: 08:30", "FUNCIONAL POLIDEPORTIVO: 10:30", "FUNCIONAL GABY: 15:00-16:00","RITMOS Y GIMNACIA: 15:00", "GIMNACIA ARTÍSTICA 4 A 6 AÑOS: 17:00-18:00", "GIMNACIA ARTÍSTICA 7 A 11 AÑOS: 18:00-19:00", "FUTSAL: 17:00-18:30", "HOCKEY FORMATIVAS: 18:30-20:00","VOLEY: 18:30-20:00", "MAXI VOLEY: 20:00-21:30", "HOCKEY MAMIS: 20:00-21:30", "MAXI BASQUET FEM: 20:00-21:30"],
-            "Vie": ["FUNCIONAL POLIDEPORTIVO: 08:30","ZUMBA AGHATA: 09:30-10:30", "FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL ADAPTADO: 10:30", "NEWCOM TARDE: 14:00-16:00", "JUEGOS DE MESA: 15:00","YOGA INTEGRAL: 16:15", "BASQUET JUVENIL: 16:00-17:30", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
+            "Vie": ["FUNCIONAL POLIDEPORTIVO: 08:30","ZUMBA AGHATA: 09:30-10:30", "FUNCIONAL KIDS: 09:30-10:30", "FUNCIONAL ADAPTADO: 10:30", "NEWCOM TARDE: 14:00-16:00","TEJO INICIAL: 15:00","TEJO COMPETITIVO: 15:00-18:00",  "JUEGOS DE MESA: 15:00","YOGA INTEGRAL: 16:15", "BASQUET JUVENIL: 16:00-17:30", "BASQUET MINI: 17:30-19:00", "BASQUET FORMATIVAS: 17:30-19:00", "HOCKEY ADOLESCENTES: 18:30-20:00", "HOCKEY ADULTOS: 20:00-21:30", "NEWCOM: 20:00-22:00"],
             "Sáb": [],
             "Dom": []
         },
         "Cav Felix Bogado": {
-            "Lun": ["BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
-            "Mar": ["DEFENSA PERSONAL FEMENINA: 18:00-19:00","LUCHA OLIMPICA: 19:00-21:00"],
-            "Mié": ["BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
-            "Jue": ["LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
-            "Vie": ["DEFENSA PERSONAL FEMENINA: 18:00-19:00","LUCHA OLIMPICA: 19:00-21:00"],
+            "Lun": ["PILATES MAT: 9:30","BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
+            "Mar": ["PILATES MAT: 9:30","DEFENSA PERSONAL FEMENINA: 18:00-19:00","LUCHA OLIMPICA: 19:00-21:00"],
+            "Mié": ["PILATES MAT: 9:30","BOX-STEP: 15:00-16:00", "FUNCIONAL FELIX BOGADO: 19:00-20:00"],
+            "Jue": ["PILATES MAT: 9:30","LUCHA OLIMPICA NIÑOS-NIÑAS:16:30-18:00"],
+            "Vie": ["PILATES MAT: 9:30","DEFENSA PERSONAL FEMENINA: 18:00-19:00","LUCHA OLIMPICA: 19:00-21:00"],
             "Sáb": [],
             "Dom": []
         },
@@ -55,12 +55,12 @@ document.addEventListener('DOMContentLoaded', () => {
             "Sáb": [],
             "Dom": []
         },
-        "Centro Comunitario Eva Peron": {
-            "Lun": ["FUNCIONAL EVA PERON: 14:00-15:00"],
-            "Mar": [],
-            "Mié": ["FUNCIONAL EVA PERON: 14:00-15:00"],
-            "Jue": ["YOGA LEDA: 10:30-11:30"],
-            "Vie": ["FUNCIONAL EVA PERON: 14:00-15:00"],
+        "Cav Eva Peron": {
+            "Lun": ["FUNCIONAL EVA PERON: 14:00-15:00", "ACT. FÍSICA ADULTOS MAYORES:15:00-16:00"],
+            "Mar": ["FUNCIONAL SOL: 8:30","FUNCIONAL SOL: 9:30","PILATES SOL: 10:30","RITMO, MOVIMIENTO Y BIENESTAR:10:30"],
+            "Mié": ["FUNCIONAL EVA PERON: 14:00-15:00", "ACT. FÍSICA ADULTOS MAYORES:15:00-16:00"],
+            "Jue": ["FUNCIONAL SOL: 8:30","FUNCIONAL SOL: 9:30","PILATES SOL: 10:30","YOGA LEDA: 10:30-11:30"],
+            "Vie": ["FUNCIONAL EVA PERON: 14:00-15:00", "ACT. FÍSICA ADULTOS MAYORES:15:00-16:00"],
             "Sáb": [],
             "Dom": []
         },
@@ -74,11 +74,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "Dom": []
         },
          "BARRIO 500 VIVIENDAS": {
-            "Lun": [],
+            "Lun": ["FÚTBOL 500: 16:00-18:00"],
             "Mar": [],
-            "Mié": ["FUTSAL MIXTO 7-9 AÑOS: 15:30-16:30","FUTSAL MIXTO 10-12 AÑOS: 16:30-17:30"],
+            "Mié": ["FÚTBOL 500: 16:00-18:00"],
             "Jue": [],
-            "Vie": ["FUTSAL MIXTO 7-9 AÑOS: 15:30-16:30","FUTSAL MIXTO 10-12 AÑOS: 16:30-17:30"],
+            "Vie": ["FÚTBOL 500: 16:00-18:00"],
             "Sáb": [],
             "Dom": []
         }
@@ -87,6 +87,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const actividadesInfo = {
         "ACTIVIDAD ADAPTADA ADULTOS MAYORES": {
             images: ["fotos/aadulmay/1.png"],
+            video: "",
+            description: ""
+        },
+        "FÚTBOL 500": {
+            images: ["fotos/futbol500/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "TEJO INICIAL": {
+            images: ["fotos/tejo/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "RITMO, MOVIMIENTO Y BIENESTAR": {
+            images: ["fotos/tejo/10.jpeg"],
+            video: "",
+            description: ""
+        },
+        "PILATES MAT": {
+            images: ["fotos/pilatesmat/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "TEJO COMPETITIVO": {
+            images: ["fotos/tejo/2.jpeg"],
+            video: "",
+            description: ""
+        },
+        "FUNCIONAL SOL": {
+            images: ["fotos/fsol/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "PILATES SOL": {
+            images: ["fotos/fsol/1.jpeg"],
             video: "",
             description: ""
         },
@@ -318,6 +353,11 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "FUNCIONAL EVA PERON": {
             images: ["fotos/funcionaleva/1.png"],
+            video: "",
+            description: ""
+        },
+        "ACT. FÍSICA ADULTOS MAYORES": {
+            images: ["fotos/funcionaleva/2.jpeg"],
             video: "",
             description: ""
         },
