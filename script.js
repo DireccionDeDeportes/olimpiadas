@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const actividades = {
         "CENTRO DE CONVENCIONES MONSEÑOR ANGELELLI": {
-            "Lun": ["MUSCULACIÓN: 07:00-13:00", "AEROBICA: 08:00-09:00", "FUNCIONAL: 09:00-10:00", "ATLETISMO: 10:00-16:00", "YOGA: 10:00-11:00", "YOGA: 11:00-12:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:30-21:30", "KARATE DO: 21:00-22:00"],
-            "Mar": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "FOLCLORE: 17:00-18:00","STRONG: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
-            "Mié": ["MUSCULACIÓN: 07:00-13:00", "STEP: 08:00-09:00", "FUNCIONAL: 09:00-10:00", "ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:30-21:30", "KARATE DO: 21:00-22:00"],
-            "Jue": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "YOGA HOLÌSTICA: 10:00-11:15","ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-21:30", "ZUMBA: 15:00-16:00", "FOLCLORE: 17:00-18:00","STRONG: 18:00-19:00", "AEROBOX: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
-            "Vie": ["MUSCULACIÓN: 07:00-13:00", "GAP: 08:00-09:00", "17:00-18:00: Zumba", "FUNCIONAL: 09:00-10:00", "PILATES MATT: 10:00-11:00", "YOGA DEPORTIVA: 10:00-11:00", "YOGA LEDA: 11:15-12:15", "MUSCULACIÓN: 14:00-21:30", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL - ZUMBA: 19:00-20:00", "KARATE DO: 20:00-21:00", "KARATE DO: 21:00-22:00"],
+            "Lun": ["MUSCULACIÓN: 07:00-13:00", "AEROBICA: 08:00-09:00", "FUNCIONAL: 09:00-10:00", "ATLETISMO: 08:00-13:00", "YOGA: 10:00-11:00", "YOGA: 11:00-12:00", "MUSCULACIÓN: 14:00-22:00", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:00-21:00", "KARATE DO: 21:00-22:00"],
+            "Mar": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-22:00", "ZUMBA: 15:00-16:00", "FOLCLORE: 17:00-18:00","STRONG: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
+            "Mié": ["MUSCULACIÓN: 07:00-13:00", "STEP: 08:00-09:00", "FUNCIONAL: 09:00-10:00", "ATLETISMO: 08:00-13:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-22:00", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "KARATE DO: 20:00-21:00", "SALSA-BACHATA: 20:00-21:00", "KARATE DO: 21:00-22:00"],
+            "Jue": ["MUSCULACIÓN: 07:00-13:00", "PILATES: 08:00-09:00", "STEP DE COMPETICIÓN: 09:00-10:00", "YOGA HOLÌSTICA: 10:00-11:15","ATLETISMO: 10:00-16:00", "PILATES MATT: 10:00-11:00", "MUSCULACIÓN: 14:00-22:00", "ZUMBA: 15:00-16:00", "FOLCLORE: 17:00-18:00","STRONG: 18:00-19:00", "AEROBOX: 18:00-19:00", "ZUMBA KIDS 8 A 11 AÑOS - ESGRIMA KIDS 8 A 12 AÑOS - FOLCLORE: 18:00-19:00", "FUNCIONAL: 19:00-20:00", "ZUMBA GOLD: 20:00-21:00", "DEFENSA PERSONAL: 20:00-21:00", "DEFENSA PERSONAL: 21:00-22:00"],
+            "Vie": ["MUSCULACIÓN: 07:00-13:00", "STEP: 08:00-09:00", "17:00-18:00: Zumba", "FUNCIONAL: 09:00-10:00", "PILATES MATT: 10:00-11:00", "YOGA DEPORTIVA: 10:00-11:00", "YOGA LEDA: 11:15-12:15", "MUSCULACIÓN: 14:00-22:00", "FUNCIONAL - ZUMBA TONING + STEP: 15:00-16:00", "FUNCIONAL: 16:00-17:00", "AEROBOX: 18:00-19:00", "ZUMBA: 19:00-20:00", "KARATE DO: 20:00-21:00", "KARATE DO: 21:00-22:00"],
             "Sáb": [],
             "Dom": []
         },
@@ -28,19 +28,19 @@ document.addEventListener('DOMContentLoaded', () => {
             "Dom": []
         },
         "Cav Jardin San Luis": {
-            "Lun": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30"],
-            "Mar": ["ACTIVIDAD ADAPTADA ADULTOS MAYORES: 10:00-11:00"],
-            "Mié": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30", "ZUMBA GOLD: 18:30"],
-            "Jue": ["ACTIVIDAD ADAPTADA ADULTOS MAYORES: 9:30-10:30"],
-            "Vie": ["FUNCIONAL JARDIN: 08:30-09:30", "FUNCIONAL JARDIN PRINCIPIANTE: 09:30-10:30", "PILATES JARDIN: 10:30-11:30", "ZUMBA GOLD: 18:30"],
+            "Lun": ["FUNCIONAL JARDIN: 08:30-11:30"],
+            "Mar": ["ACTIVIDAD ADAPTADA ADULTOS MAYORES: 9:00-11:30"],
+            "Mié": ["FUNCIONAL JARDIN: 08:30-11:30"],
+            "Jue": ["ACTIVIDAD ADAPTADA ADULTOS MAYORES: 9:00-11:30"],
+            "Vie": ["FUNCIONAL JARDIN: 08:30-11:30"],
             "Sáb": [],
             "Dom": []
         }
         ,
         "Cav Tercera Rotonda": {
-            "Lun": ["LUCHA OLIMPICA NIÑOS-NIÑAS TERCERA: 16:00-20:00"],
+            "Lun": ["DEFENSA PERSONAL FEMENINA 3: 15:00-16:30","LUCHA OLIMPICA 3: 17:00-20:30"],
             "Mar": ["FUNCIONAL MELINA: 8:30-9:30"],
-            "Mié": ["LUCHA OLIMPICA NIÑOS-NIÑAS TERCERA: 16:00-20:00"],
+            "Mié": ["DEFENSA PERSONAL FEMENINA 3: 15:00-16:30","LUCHA OLIMPICA 3: 17:00-20:30"],
             "Jue": ["FUNCIONAL MELINA: 10:00-11:00"],
             "Vie": [],
             "Sáb": [],
@@ -86,12 +86,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const actividadesInfo = {
         "ACTIVIDAD ADAPTADA ADULTOS MAYORES": {
-            images: ["fotos/aadulmay/1.png"],
+            images: ["fotos/aadulmay/1.jpeg"],
             video: "",
             description: ""
         },
         "FÚTBOL 500": {
             images: ["fotos/futbol500/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "FUNCIONAL": {
+            images: ["fotos/funcional/1.jpeg"],
             video: "",
             description: ""
         },
@@ -141,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "ATLETISMO": {
-            images: ["fotos/atletismo/1.png"],
+            images: ["fotos/atletismo/1.jpeg"],
             video: "",
             description: ""
         }, 
@@ -156,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "FUNCIONAL MELINA": {
-            images: ["fotos/funcionalmelina/1.png"],
+            images: ["fotos/funcionalmelina/1.jpeg"],
             video: "",
             description: ""
         },
@@ -201,6 +206,16 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "STRONG": {
+            images: ["fotos/strong/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "FUNCIONAL - ZUMBA TONING + STEP": {
+            images: ["fotos/strong/1.jpeg"],
+            video: "",
+            description: ""
+        },
+        "ZUMBA": {
             images: ["fotos/strong/1.jpeg"],
             video: "",
             description: ""
@@ -290,13 +305,18 @@ document.addEventListener('DOMContentLoaded', () => {
             video: "",
             description: ""
         },
+        "STEP": {
+            images: ["fotos/step/1.jpeg"],
+            video: "",
+            description: ""
+        },
         "FUNCIONAL FELIX BOGADO": {
             images: ["fotos/boxstepfelix/1.png"],
             video: "",
             description: ""
         },
         "FUNCIONAL JARDIN": {
-            images: ["fotos/funcionaljardin/1.png"],
+            images: ["fotos/funcionaljardin/1.jpeg"],
             video: "",
             description: ""
         }
@@ -307,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "MUSCULACIÓN": {
-            images: ["fotos/musculacion/1.jpeg"],
+            images: ["fotos/musculacion/1.jpeg","fotos/musculacion/2.jpeg"],
             video: "",
             description: ""
         },
@@ -317,7 +337,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "PILATES MATT": {
-            images: ["fotos/pilatesmatt/1.png"],
+            images: ["fotos/pilatesmatt/1.jpeg","fotos/pilatesmatt/2.jpeg"],
             video: "",
             description: ""
         },
@@ -332,12 +352,17 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "SALSA-BACHATA": {
-            images: ["fotos/bachata/1.png"],
+            images: ["fotos/bachata/1.jpeg","fotos/bachata/3.jpeg","fotos/bachata/4.jpeg","fotos/bachata/5.jpeg"],
+            video: "https://youtube.com/shorts/iHL9Eu_OE1Y",
+            description: "Nuestra clase de bachata está diseñada para que cualquier persona pueda disfrutar, desde principiantes hasta quienes ya tienen experiencia. Aprenderás los pasos básicos, giros y combinaciones de manera progresiva, siempre acompañados de música envolvente y un ambiente divertido y relajado. No necesitas venir con pareja ni tener conocimientos previos—solo ganas de moverte, reírte y dejarte llevar por el ritmo. Además, la bachata no solo es un baile: es una forma de expresarte, conocer gente nueva y desconectarte de la rutina. Anímate a probar algo diferente, mejorar tu confianza en la pista y sentir la magia de la música en cada paso. ¡Te esperamos para bailar juntos!"
+        },
+        "LUCHA OLIMPICA 3": {
+            images: ["fotos/luchatercera/1.jpeg"],
             video: "",
             description: ""
         },
-        "LUCHA OLIMPICA NIÑOS-NIÑAS TERCERA": {
-            images: ["fotos/luchatercera/1.png"],
+        "DEFENSA PERSONAL FEMENINA 3": {
+            images: ["fotos/luchatercera/1.jpeg"],
             video: "",
             description: ""
         },
@@ -377,7 +402,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "ZUMBA GOLD": {
-            images: ["fotos/zumbagold/1.jpeg", "fotos/zumbagold/2.png"],
+            images: ["fotos/zumbagold/1.jpeg", "fotos/zumbagold/2.jpeg"],
             video: "",
             description: ""
         },
