@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: ""
         },
         "BASQUET MINI": {
-            images: ["fotos/basquetm/1.jpeg", "fotos/basquetm/2.jpeg", "fotos/basquetm/3.jpeg"],
+            images: ["fotos/basquetm/1.jpeg", "fotos/basquetm/2.jpeg", "fotos/basquetm/4.jpeg"],
             video: "",
             description: ""
         },
